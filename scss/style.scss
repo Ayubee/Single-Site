@@ -158,3 +158,54 @@ main {
   line-height: $Medium-lh;
   color: $color-gray;
 }
+
+.service {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+.service__container {
+}
+.container {
+}
+.service__box {
+  display: grid;
+  grid-template: 1 / 6;
+  gap: 2.4rem;
+}
+
+.box__content:nth-child(1) {
+  grid-column: 1 / 6;
+}
+.box__content:nth-child(2) {
+  width: 100px;
+  height: 100px;
+  color: #552049;
+  background-color: black;
+}
+.box__content:nth-child(3) {
+  width: 100px;
+  height: 100px;
+  color: #552049;
+  background-color: black;
+}
+.box__content:nth-child(4) {
+  width: 100px;
+  height: 100px;
+  color: #552049;
+  background-color: black;
+}
+.box__content:nth-child(5) {
+  width: 100px;
+  height: 100px;
+  color: #552049;
+  background-color: black;
+}
+.box__content:nth-child(6) {
+  width: 100px;
+  height: 100px;
+  color: #552049;
+  background-color: black;
+}
+
+.box__content {
+}
